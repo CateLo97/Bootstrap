@@ -1,0 +1,58 @@
+.bg-gradient-css {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 50%, rgba(2, 0, 36, 1) 100%) !important;
+}
+
+.navbar-brand img{
+    max-width: 125px;
+    max-height: 125px;
+}
+
+.logos{
+    max-width:72px;
+    height: auto;
+}
+
+
+.bg-gris {
+    background-color: #001125; /* Fondo elegante y oscuro */
+}
+ 
+.navbar a {
+    color: #FFD700; /* Links con un tono dorado */
+}
+
+.navbar a:hover {
+    color: #FFA500;/* Efecto hover en naranja suave */
+}
+
+.home-header-text-holder{
+    font-size: 18px;
+    color: rgb(107, 172, 228);
+    margin-bottom: 10px;
+}
+
+.full-width{
+    width: 100%;
+    height: auto;
+}
+
+.text-light-blue{
+    color: rgb(107, 172, 228);
+
+}
+
+
+/**
+.home-header-image-holder
+.main-header
+feature-item
+course-loop
+course-loop-heading 
+list-group 
+list-group-item
+list-group-item-action"
+
+**/
+
+/** estilos cop**/
+
