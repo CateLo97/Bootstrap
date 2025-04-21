@@ -40,9 +40,25 @@
     color: rgb(107, 172, 228);
 
 }
+.subscribe{
+    background-image:url(img/hands.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
 
+.brand-icon img{
+    width: 75px;
+    height: auto;
+    
+}
+
+.blur-filter{
+    backdrop-filter: blur(8px);
+    background-color: rgb(157, 151, 144 / 30%);
+}
 
 /**
+mobile-padding
 .home-header-image-holder
 .main-header
 feature-item
