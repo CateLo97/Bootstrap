@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gradient-css">
+<body class="bg-gradient-css">      
     <!--Navbar-->
     <div class=" navbar navbar-expand-lg bg-gris sticky-top">
         <div class="container">
@@ -79,7 +79,12 @@
                         <div class="home-header-text-holder">
                             <h1 class="fs-3 fw-normal">Lorem, ipsum dolor sit amet consectetur adipisicing elit</h1>
                             <h2 class="fs-5 fw-light text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore natus iste sequi molestiae dolores ab sed repellendus maiores vel omnis, praesentium autem nisi modi porro voluptate corrupti impedit quis alias.</h2>
-                            <a href="#" class="btn btn-sm btn-primary mt-5 mb-3 d-inline-flex align-items-center"><i class="bi bi-envelope-arrow-down-fill me-2"></i> Sign-up to Newsletters</a>
+                            <a 
+                            href="#" 
+                            class="btn btn-sm btn-primary mt-5 mb-3 d-inline-flex align-items-center"
+                            data-bs-toggle="modal"
+                            data-bs-target="#Subscribe_modal">
+                            <i class="bi bi-envelope-arrow-down-fill me-2"></i> Sign-up to Newsletters</a>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -93,9 +98,210 @@
     <!-- Blog Banner-->
 
     <!--Blog Post List-->
+    <section class="py-5 mx-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 order-2">
+                    <div class="list-group small">
+                        <div class="list-group-item text-bg-light fw-bold d-flex justify-content-between align-items-center">
+                            List of all Blog post
+                            <span class="badge text-bg-warning rounded-pill">24 posts Available</span>
+                        </div>
+                        <a href="#" class="text-decoration-none mt-3">
+                            <div class="row align-items-center g-3">
+                                <div class="col-md-4">
+                                    <div class="course-image-holder">
+                                        <img class="rounded img-fluid" src="img/pc-home.jpg" alt="pc">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae blanditiis, aut, a</h5>
+                                    <p class="text-secondary">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi explicabo deleniti exercitationem cupiditate dolorum consequatur sint, amet odit commodi similique aperiam nihil, dolore obcaecati sed aliquid repellendus ex cum quia.
+                                    </p>
+                                    <p>
+                                        <span class="text-bg-dark rounded px-3 badge">
+                                            <strong class="me-2">Posted On:</strong>
+                                            <span class="fw-light">2nd Aug 2024</span>
+                                        </span>
+                                        <span class="text-bg-dark rounded px-3 badge">
+                                            <strong class="me-2">Category:</strong>
+                                            <span class="fw-light">Tech</span>
+                                        </span>
+                                        <span class="text-bg-dark rounded px-3 badge">
+                                            <strong class="me-2">Author:</strong>
+                                            <span class="fw-light">Inspiration</span>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="text-decoration-none mt-3">
+                            <div class="row align-items-center g-3">
+                                <div class="col-md-4">
+                                    <div class="course-image-holder">
+                                        <img class="rounded img-fluid" src="img/pc-home.jpg" alt="pc">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae blanditiis, aut, a</h5>
+                                    <p class="text-secondary">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi explicabo deleniti exercitationem cupiditate dolorum consequatur sint, amet odit commodi similique aperiam nihil, dolore obcaecati sed aliquid repellendus ex cum quia.
+                                    </p>
+                                    <p>
+                                        <span class="text-bg-dark rounded px-3 badge">
+                                            <strong class="me-2">Posted On:</strong>
+                                            <span class="fw-light">2nd Aug 2024</span>
+                                        </span>
+                                        <span class="text-bg-dark rounded px-3 badge">
+                                            <strong class="me-2">Category:</strong>
+                                            <span class="fw-light">Tech</span>
+                                        </span>
+                                        <span class="text-bg-dark rounded px-3 badge">
+                                            <strong class="me-2">Author:</strong>
+                                            <span class="fw-light">Inspiration</span>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="text-decoration-none mt-3">
+                            <div class="row align-items-center g-3">
+                                <div class="col-md-4">
+                                    <div class="course-image-holder">
+                                        <img class="rounded img-fluid" src="img/pc-home.jpg" alt="pc">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae blanditiis, aut, a</h5>
+                                    <p class="text-secondary">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi explicabo deleniti exercitationem cupiditate dolorum consequatur sint, amet odit commodi similique aperiam nihil, dolore obcaecati sed aliquid repellendus ex cum quia.
+                                    </p>
+                                    <p>
+                                        <span class="text-bg-dark rounded px-3 badge">
+                                            <strong class="me-2">Posted On:</strong>
+                                            <span class="fw-light">2nd Aug 2024</span>
+                                        </span>
+                                        <span class="text-bg-dark rounded px-3 badge">
+                                            <strong class="me-2">Category:</strong>
+                                            <span class="fw-light">Tech</span>
+                                        </span>
+                                        <span class="text-bg-dark rounded px-3 badge">
+                                            <strong class="me-2">Author:</strong>
+                                            <span class="fw-light">Inspiration</span>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="text-decoration-none mt-3">
+                            <div class="row align-items-center g-3">
+                                <div class="col-md-4">
+                                    <div class="course-image-holder">
+                                        <img class="rounded img-fluid" src="img/pc-home.jpg" alt="pc">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae blanditiis, aut, a</h5>
+                                    <p class="text-secondary">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi explicabo deleniti exercitationem cupiditate dolorum consequatur sint, amet odit commodi similique aperiam nihil, dolore obcaecati sed aliquid repellendus ex cum quia.
+                                    </p>
+                                    <p>
+                                        <span class="text-bg-dark rounded px-3 badge">
+                                            <strong class="me-2">Posted On:</strong>
+                                            <span class="fw-light">2nd Aug 2024</span>
+                                        </span>
+                                        <span class="text-bg-dark rounded px-3 badge">
+                                            <strong class="me-2">Category:</strong>
+                                            <span class="fw-light">Tech</span>
+                                        </span>
+                                        <span class="text-bg-dark rounded px-3 badge">
+                                            <strong class="me-2">Author:</strong>
+                                            <span class="fw-light">Inspiration</span>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>                        
+                        <a href="#" class="text-decoration-none mt-3">
+                            <div class="row align-items-center g-3">
+                                <div class="col-md-4">
+                                    <div class="course-image-holder">
+                                        <img class="rounded img-fluid" src="img/pc-home.jpg" alt="pc">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae blanditiis, aut, a</h5>
+                                    <p class="text-secondary">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi explicabo deleniti exercitationem cupiditate dolorum consequatur sint, amet odit commodi similique aperiam nihil, dolore obcaecati sed aliquid repellendus ex cum quia.
+                                    </p>
+                                    <p>
+                                        <span class="text-bg-dark rounded px-3 badge">
+                                            <strong class="me-2">Posted On:</strong>
+                                            <span class="fw-light">2nd Aug 2024</span>
+                                        </span>
+                                        <span class="text-bg-dark rounded px-3 badge">
+                                            <strong class="me-2">Category:</strong>
+                                            <span class="fw-light">Tech</span>
+                                        </span>
+                                        <span class="text-bg-dark rounded px-3 badge">
+                                            <strong class="me-2">Author:</strong>
+                                            <span class="fw-light">Inspiration</span>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="list-group small mb-3">
+                        <div class="list-group-item text-bg-light fw-bold">
+                            Archives
+                        </div>
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            2022
+                            <span class="badge text-bg-warning rounded-pill">55</span>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            2023
+                            <span class="badge text-bg-warning rounded-pill">45</span>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            2024
+                            <span class="badge text-bg-warning rounded-pill">56</span>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            2025
+                            <span class="badge text-bg-warning rounded-pill">36</span>
+                        </a>
+                    </div>
+                    <div class="list-group small mb-3">
+                        <div class="list-group-item text-bg-light fw-bold">
+                            Categories
+                        </div>
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Tech
+                            <span class="badge text-bg-warning rounded-pill">45</span>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Tutorials
+                            <span class="badge text-bg-warning rounded-pill">54</span>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Tips & Tricks
+                            <span class="badge text-bg-warning rounded-pill">16</span>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Product Reviews
+                            <span class="badge text-bg-warning rounded-pill">36</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-        
-
+        </div>
+    </section>
     <!--Blog Post List-->
 
     <!-- Subscribe -->
@@ -201,6 +407,62 @@
         </a>
     </div> 
     <!--Sticky Footer-->
+    
+    <!-- Subscribe Modal -->
+    <div class="modal fade" 
+            id="Subscribe_modal"    
+            tabindex="-1" 
+            aria-labelledby="subscribe_modal"   
+            aria-hidden="true"
+            data-bs-backdrop="static"   
+            data-bs-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content text-bg-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title">Subscribe to Newsletters</h5>
+                    <button type="button" 
+                        class="btn-close"   
+                         data-bs-dismiss="modal"    
+                         aria-label="Close">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row gx-2">
+                            <div class="col-md-6">
+                                <div class="mb-2">
+                                    <input type="text" class="form-control form-control-sm" placeholder="First name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-2">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Last Name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-2">
+                                    <input type="email" class="form-control form-control-sm" placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="d-grid mb-2">
+                                    <button type="submit" class="btn btn-sm btn-success">
+                                        <i class="bi bi-envelope-arrow-down-fill me-2"></i>
+                                        Subscribe
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
